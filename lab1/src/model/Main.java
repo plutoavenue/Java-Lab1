@@ -11,19 +11,19 @@ import java.util.ListIterator;
 public class Main {
     public static void main(String[] args) {
         Weapon swoard = new Weapon.Builder()
-                .withType(Weapon.Type.Bladed)
+                .withType(Weapon.Type.BLADED)
                 .withLevel(3)
                 .build();
 
         Location yordan = new Location.Builder()
                 .withKingdom("Yordan")
-                .withMainRace(Location.Race.Witches)
+                .withMainRace(Location.Race.WITCHES)
                 .withEnteringLevel(23)
                 .withPartName("Ice Prisone")
                 .build();
 
         Weapon sreyrMann1 = new Weapon.Builder()
-                .withType(Weapon.Type.Firearm)
+                .withType(Weapon.Type.FIREARM)
                 .withName("Steyr-Mannlicher STM-556")
                 .withDamages(86)
                 .withLevel(30)
