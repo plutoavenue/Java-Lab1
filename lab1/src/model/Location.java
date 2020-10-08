@@ -6,7 +6,7 @@ import java.util.Objects;
 public class Location {
 
     public enum Race {
-        Elves, Dragons, Werewolves, Witches, Demons, Angels, Mermaids;
+       ELVES, DRAGONS, WEREWOLVES, WITCHES, DEMONS, ANGELS, MERMAIDS;
     }
 
     private String partName;
