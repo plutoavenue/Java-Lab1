@@ -20,7 +20,7 @@ public class testWeaponLocation {
     public Object[][] equalsWeaponObject() {
         Location yordan = new Location.Builder()
                 .withKingdom("Yordan")
-                .withMainRace(Location.Race.Witches)
+                .withMainRace(Location.Race.WITCHES)
                 .withEnteringLevel(23)
                 .withPartName("Ice Prisone")
                 .build();
@@ -31,7 +31,7 @@ public class testWeaponLocation {
         lowLine.setPartName("Low Line");
 
         Weapon sreyrMann1 = new Weapon.Builder()
-                .withType(Weapon.Type.Firearm)
+                .withType(Weapon.Type.FIREARM)
                 .withName("Steyr-Mannlicher STM-556")
                 .withDamages(86)
                 .withLevel(30)
@@ -40,7 +40,7 @@ public class testWeaponLocation {
                 .build();
 
         Weapon sreyrMann2 = new Weapon.Builder()
-                .withType(Weapon.Type.Firearm)
+                .withType(Weapon.Type.FIREARM)
                 .withName("Steyr-Mannlicher STM-556")
                 .withDamages(86)
                 .withLevel(30)
@@ -49,13 +49,13 @@ public class testWeaponLocation {
                 .build();
 
         Weapon swoard1 = new Weapon.Builder()
-                .withType(Weapon.Type.Bladed)
+                .withType(Weapon.Type.BLADED)
                 .withLevel(3)
                 .withLocation(lowLine)
                 .build();
 
         Weapon swoard2 = new Weapon.Builder()
-                .withType(Weapon.Type.Bladed)
+                .withType(Weapon.Type.BLADED)
                 .withLevel(3)
                 .withLocation(lowLine)
                 .build();
@@ -72,7 +72,7 @@ public class testWeaponLocation {
     public Object[][] notEqualsWeaponObject() {
         Location yordan = new Location.Builder()
                 .withKingdom("Yordan")
-                .withMainRace(Location.Race.Witches)
+                .withMainRace(Location.Race.WITCHES)
                 .withEnteringLevel(23)
                 .withPartName("Ice Prisone")
                 .build();
@@ -84,7 +84,7 @@ public class testWeaponLocation {
         lowLine.setPartName("Low Line");
 
         Weapon sreyrMann1 = new Weapon.Builder()
-                .withType(Weapon.Type.Firearm)
+                .withType(Weapon.Type.FIREARM)
                 .withName("Steyr-Mannlicher STM-556")
                 .withDamages(86)
                 .withLevel(30)
@@ -93,7 +93,7 @@ public class testWeaponLocation {
                 .build();
 
         Weapon sreyrMann2 = new Weapon.Builder()
-                .withType(Weapon.Type.Firearm)
+                .withType(Weapon.Type.FIREARM)
                 .withName("Steyr-Mannlicher SSG-08")
                 .withDamages(202)
                 .withLevel(45)
@@ -102,13 +102,13 @@ public class testWeaponLocation {
                 .build();
 
         Weapon swoard1 = new Weapon.Builder()
-                .withType(Weapon.Type.Bladed)
+                .withType(Weapon.Type.BLADED)
                 .withLevel(3)
                 .withLocation(lowLine)
                 .build();
 
         Weapon swoard2 = new Weapon.Builder()
-                .withType(Weapon.Type.Bladed)
+                .withType(Weapon.Type.BLADED)
                 .withLevel(3)
                 .withLocation(middleLine)
                 .build();
@@ -125,14 +125,14 @@ public class testWeaponLocation {
     public Object[][] equalsLocationObject() {
         Location yordan = new Location.Builder()
                 .withKingdom("Yordan")
-                .withMainRace(Location.Race.Witches)
+                .withMainRace(Location.Race.WITCHES)
                 .withEnteringLevel(23)
                 .withPartName("Ice Prisone")
                 .build();
 
         Location yordanSecond = new Location.Builder()
                 .withKingdom("Yordan")
-                .withMainRace(Location.Race.Witches)
+                .withMainRace(Location.Race.WITCHES)
                 .withEnteringLevel(23)
                 .withPartName("Ice Prisone")
                 .build();
@@ -162,14 +162,14 @@ public class testWeaponLocation {
     public Object[][] notEqualsLocationObject() {
         Location yordan = new Location.Builder()
                 .withKingdom("Yordan")
-                .withMainRace(Location.Race.Witches)
+                .withMainRace(Location.Race.WITCHES)
                 .withEnteringLevel(23)
                 .withPartName("Ice Prisone")
                 .build();
 
         Location yordanSecond = new Location.Builder()
                 .withKingdom("Yordan")
-                .withMainRace(Location.Race.Witches)
+                .withMainRace(Location.Race.WITCHES)
                 .withEnteringLevel(23)
                 .withPartName("Ice Prisone")
                 .build();
