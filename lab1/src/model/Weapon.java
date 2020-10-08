@@ -5,8 +5,8 @@ import java.util.Objects;
 public class Weapon {
 
     public enum Type {
-        Artillery, Flamethrower, Explosive, Firearm, Bladed, Throwing, Impact;
-    } //великими буквами
+       ARTILLERY, FLAMETHROWER, EXPLOSIVE, FIREARM, BLADED, THROWING, IMPACT;
+    } 
 
     private Type type;
     private String name;
